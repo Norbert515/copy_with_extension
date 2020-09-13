@@ -11,4 +11,7 @@ environment:
 dev_dependencies:
   build_runner: ">=1.0.0 <2.0.0"
   test: "<2.0.0"
-  copy_with_extension_gen: ">=1.2.0 <2.0.0"
+  copy_with_extension_gen:
+     git:
+      url: https://github.com/Norbert515/copy_with_extension.git
+      path: copy_with_extension_gen
